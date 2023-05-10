@@ -1,0 +1,15 @@
+<Project>
+  <PropertyGroup>
+    <Company>Axle.io</Company>
+    <Description>An Application for manufactoring is build by Axle</Description>
+    <Copyright>Copyright Axle.io 2022</Copyright>
+    <Product>Axle.io</Product>
+    <AssemblyVersion>7.23.5.9</AssemblyVersion>
+    <InformationalVersion>7.23.5.9</InformationalVersion>
+    <FileVersion>7.23.5.9</FileVersion>
+    <EnableCentralPackageVersions>true</EnableCentralPackageVersions>
+    <ProjectDirectoryPath>$([System.IO.Directory]::GetParent($(MSBuildProjectDirectory)).FullName.Replace($(SolutionDir),"").Replace("\",".").Replace("/","."))</ProjectDirectoryPath>
+    <RootNamespace>$(SolutionName).$(ProjectDirectoryPath).$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <AssemblyName>$(SolutionName).$(ProjectDirectoryPath).$(MSBuildProjectName)</AssemblyName>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,50 @@
+{
+  "name": "axle.app",
+  "version": "16.23.5.9",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build client",
+    "watch": "ng build --watch --configuration development",
+    "lint": "ng lint",
+    "clean": "ng cache clean"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^16.0.0",
+    "@angular/common": "^16.0.0",
+    "@angular/compiler": "^16.0.0",
+    "@angular/core": "^16.0.0",
+    "@angular/forms": "^16.0.0",
+    "@angular/platform-browser": "^16.0.0",
+    "@angular/platform-browser-dynamic": "^16.0.0",
+    "@angular/router": "^16.0.0",
+    "@auth0/angular-jwt": "^5.1.2",
+    "@fortawesome/angular-fontawesome": "^0.13.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@microsoft/signalr": "^7.0.5",
+    "@ngx-translate/core": "^15.0.0",
+    "chart.js": "^4.3.0",
+    "primeflex": "^3.3.0",
+    "primeicons": "^6.0.1",
+    "primeng": "^16.0.0-rc.1",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.13.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^16.0.0",
+    "@angular-eslint/builder": "16.0.1",
+    "@angular-eslint/eslint-plugin": "16.0.1",
+    "@angular-eslint/eslint-plugin-template": "16.0.1",
+    "@angular-eslint/schematics": "16.0.1",
+    "@angular-eslint/template-parser": "16.0.1",
+    "@angular/cli": "~16.0.0",
+    "@angular/compiler-cli": "^16.0.0",
+    "@typescript-eslint/eslint-plugin": "5.59.2",
+    "@typescript-eslint/parser": "5.59.2",
+    "eslint": "^8.39.0",
+    "typescript": "~5.0.2"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "axle.module.admin",
+  "version": "16.23.5.9",
+  "peerDependencies": {
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
